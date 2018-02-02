@@ -1,8 +1,9 @@
 # C# 6.0-Examples
 Simple but usefull examples of features of C# 6.0 Implemented using [Visual Studio Code](https://code.visualstudio.com) and [.NET CORE](https://docs.microsoft.com/en-us/dotnet/core/whats-new/).
 
-
 For configuring VS Code with .NET core click this [link](https://docs.microsoft.com/en-us/dotnet/core/tutorials/with-visual-studio-code)
+
+This project does not cover all the [new features](https://docs.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-6) of the C# 6.0, but does has some good basic code examples. 
 
 ## Part one
 * 1.1 [String Interpolation](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/interpolated-strings)
