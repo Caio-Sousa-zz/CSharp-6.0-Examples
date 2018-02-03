@@ -12,6 +12,7 @@ This project does not cover all the [new features](https://docs.microsoft.com/en
 * 1.4 [Expression Bodies](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/statements-expressions-operators/expression-bodied-members#methods)
 * 1.5 [Exception Filters](https://docs.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-6#exception-filters)
 * 1.6 [Index Initializers](https://docs.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-6#index-initializers)
+* 1.7 [Using Static](https://docs.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-6#using-static)
 
 
 
