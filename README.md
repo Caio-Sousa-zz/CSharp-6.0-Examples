@@ -15,7 +15,7 @@ This project does not cover all the [new features](https://docs.microsoft.com/en
 * 1.7 [Using Static](https://docs.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-6#using-static)
 * 1.8 [Auto Property Initializer](https://docs.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-6#auto-property-initializers)
 * 1.9 [Overload](https://docs.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-6#improved-overload-resolution)
-* 2.0 [Read-only Auto-properties:](https://docs.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-6#read-only-auto-properties)
+* 2.0 [Read-only Auto-properties](https://docs.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-6#read-only-auto-properties)
 
 ## C#6.0 not covered
 The following C#6 features were not covered in code.
