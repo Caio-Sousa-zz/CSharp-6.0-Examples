@@ -14,8 +14,8 @@ namespace C__6._0
             exceptionFilterExample();
             indexInitializer();
             usingStatic();
-            */
             autoPropertyInitializer();
+            */
         }
 
         // 1.1 String Interpolation.
@@ -130,8 +130,16 @@ namespace C__6._0
             Console.WriteLine($"Display person: {v}");
         }
 
+        // 1.9 Overload method
+        private static void overloadMethodTest()
+        {
+            overloadMethod(10);
+            overloadMethod(new Person());
+            overloadMethod(true);
+            overloadMethod(new object());
+            overloadMethod(new System.Text.StringBuilder());
+        }
 
-        
         // 2.0 Read only auto properties
         private static void ReaOnlyAutoProperties()
         {
