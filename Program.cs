@@ -14,8 +14,9 @@ namespace C__6._0
             exceptionFilterExample();
             indexInitializer();
             usingStatic();
-            */
             autoPropertyInitializer();
+            testOverloadMethod();
+             */
         }
 
         // 1.1 String Interpolation.
@@ -99,6 +100,54 @@ namespace C__6._0
             Console.WriteLine($"Default age: {init.age}");
             Console.WriteLine($"Default address: {init.address}");
         }
+
+        // 1.9 Overload methods
+        private static void display(string v)
+        {
+            Console.WriteLine($"string value: {v}");
+        }
+
+        // 1.9 Overload methods
+        private static void display(int v)
+        {
+            Console.WriteLine($"int value: {v}");
+        }
+
+        // 1.9 Overload methods
+        private static void display(bool v)
+        {
+            Console.WriteLine($"bool value: {v}");
+        }
+
+        // 1.9 Overload methods
+        private static void display(object v)
+        {
+            Console.WriteLine($"object value: {v}");
+        }
+
+        // 1.9 Overload methods
+        private static void display(Person v)
+        {
+            Console.WriteLine($"Person value: {v}");
+        }
+
+        // 1.9 Overload methods
+        private static void testOverloadMethod()
+        {
+            display("Test");
+            display(100);
+            display(true);
+            display(new Person());
+            Console.ReadLine();
+        }
+
+        // 2.0 Get read only accessor
+        private static void getReadOnlyAccessor()
+        {
+            InitializerExample init = new InitializerExample();
+            // Cannot set age: init.age = 10;
+            Console.WriteLine($"Default age: {init.age}");
+        }
     }
     public class Person
     {
@@ -120,6 +169,4 @@ namespace C__6._0
 
         public string address { get; set; } = "Default Address";
     }
-
-    // Indent shift + alt + f
 }
