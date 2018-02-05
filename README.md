@@ -14,6 +14,8 @@ This project does not cover all the [new features](https://docs.microsoft.com/en
 * 1.6 [Index Initializers](https://docs.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-6#index-initializers)
 * 1.7 [Using Static](https://docs.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-6#using-static)
 * 1.8 [Auto Property Initializer](https://docs.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-6#auto-property-initializers)
+* 1.9 [Overload](https://docs.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-6#improved-overload-resolution)
+
 
 
 
