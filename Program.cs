@@ -99,6 +99,44 @@ namespace C__6._0
             Console.WriteLine($"Default age: {init.age}");
             Console.WriteLine($"Default address: {init.address}");
         }
+
+        // 1.9 Overload method
+        private static void overloadMethod(string v)
+        {
+            Console.WriteLine($"Display string: {v}");
+        }
+
+        // 1.9 Overload method
+        private static void overloadMethod(int v)
+        {
+            Console.WriteLine($"Display int: {v}");
+        }
+
+        // 1.9 Overload method
+        private static void overloadMethod(object v)
+        {
+            Console.WriteLine($"Display object: {v}");
+        }
+
+        // 1.9 Overload method
+        private static void overloadMethod(bool v)
+        {
+            Console.WriteLine($"Display boolean: {v}");
+        }
+
+        // 1.9 Overload method
+        private static void overloadMethod(Person v)
+        {
+            Console.WriteLine($"Display person: {v}");
+        }
+
+
+        
+        // 2.0 Read only auto properties
+        private static void ReaOnlyAutoProperties()
+        {
+            Console.WriteLine($"Read only accessor: {new ReadOnlyExample().age}");
+        }
     }
     public class Person
     {
@@ -116,10 +154,13 @@ namespace C__6._0
 
     public class InitializerExample
     {
-        public int age { get; } = 10;
+        public int age { get; set; } = 10;
 
         public string address { get; set; } = "Default Address";
     }
 
-    // Indent shift + alt + f
+    public class ReadOnlyExample
+    {
+        public int age { get; } = 27;
+    }
 }

@@ -670,11 +670,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\NOTE-TGM-10\\Desktop\\Pessoal\\Study\\Test\\C# 6.0.csproj",
+      "projectUniqueName": "C:\\Users\\NOTE-TGM-10\\Desktop\\Pessoal\\Study\\Test\\C# 6.0.csproj",
       "projectName": "C# 6.0",
-      "projectPath": "c:\\Users\\NOTE-TGM-10\\Desktop\\Pessoal\\Study\\Test\\C# 6.0.csproj",
+      "projectPath": "C:\\Users\\NOTE-TGM-10\\Desktop\\Pessoal\\Study\\Test\\C# 6.0.csproj",
       "packagesPath": "C:\\Users\\NOTE-TGM-10\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\NOTE-TGM-10\\Desktop\\Pessoal\\Study\\Test\\obj\\",
+      "outputPath": "C:\\Users\\NOTE-TGM-10\\Desktop\\Pessoal\\Study\\Test\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
